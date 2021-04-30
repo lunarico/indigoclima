@@ -2,8 +2,9 @@ header {
     &.masthead {
         background: linear-gradient(to bottom, rgba(35, 38, 44, 0.8) 0%, rgba(50, 148, 204, 0.8) 100%), 
         //background: linear-gradient(to bottom, rgba(0, 0, 0, 0.575) 0%, rgba(0, 0, 0, 0.356) 100%), 
-                    url("../img/fondo.jpg");
-        background-attachment: scroll;
+                    url("../img/home.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         padding-top: 7.5rem;
         padding-bottom: calc(10rem - 4.5rem);
         img {
@@ -17,8 +18,8 @@ header {
         }
         h1 {
             color: $almost_white; 
-            font: $font__title;
-            letter-spacing: 0.25rem;
+            font: $font__title-home;
+            //letter-spacing: 0.25rem;
             text-transform: uppercase;
         }
         @media (min-width: 992px) {

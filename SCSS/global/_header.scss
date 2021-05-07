@@ -12,14 +12,13 @@ header {
             padding-bottom: 2rem;
             width: 16.25rem;
             @media (min-width: 992px) {
-            padding-top: 3.75rem;
-            padding-bottom: 0;
+                padding-top: 3.75rem;
+                padding-bottom: 0;
             }
         }
         h1 {
             color: $almost_white; 
-            font: $font__title-home;
-            //letter-spacing: 0.25rem;
+            font: $font__title;
             text-transform: uppercase;
         }
         @media (min-width: 992px) {

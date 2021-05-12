@@ -6,16 +6,19 @@
         @media (min-width: 768px) {
             background-attachment: fixed;
             background-image: url("../img/contactSM.png");
-            background-size: contain;
             background-repeat: no-repeat;
+            background-size: cover;
+
         }
         @media (min-width: 1024px) and (min-height: 768px) {
             background-attachment: local;
             background-image: url("../img/contactMD.png");
+            
         }
         @media (min-width: 1366px) and (min-height: 1024px) {
             background-image: url("../img/contactLG.png");
             background-size:auto;
+            
         }
         h3 {
             padding: 1.5rem 0;
